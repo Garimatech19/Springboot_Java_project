@@ -68,5 +68,6 @@ springbootBackend-main/
 │── README.md                            # Documentation
 │── .gitignore                           # Git ignore file
 
-springbootBackend-main/ │── src/ │ ├── main/ │ │ ├── java/com/example/project/ # Root package │ │ │ ├── controller/ # Handles HTTP requests (REST APIs) │ │ │ │ ├── ContentController.java │ │ │ │ ├── DashboardController.java │ │ │ │ ├── RegistrationController.java │ │ │ ├── model/ # Entity/Database model layer │ │ │ │ ├── MyAppUser.java │ │ │ │ ├── MyAppUserRepository.java │ │ │ │ ├── MyAppUserService.java │ │ │ │ ├── Role.java │ │ │ ├── repository/ # Data access layer (DAO) │ │ │ │ ├── UserRepository.java │ │ │ ├── security/ # Security & authentication configurations │ │ │ │ ├── SecurityConfig.java │ │ ├── resources/ │ │ │ ├── application.properties # Configuration file │ │ │ ├── templates/ # Thymeleaf templates (if applicable) │ │ │ ├── static/ # Static files (CSS, JS, images) │ │ │ ├── public/ # Publicly accessible resources │ ├── test/ # Unit & integration test cases │── pom.xml # Maven build file │── README.md # Documentation │── .gitignore # Git ignored files
+
+
 
